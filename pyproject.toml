@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl-nix-mock-vgtu-consultation-reservation-platform-srinidhigopalraj"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_mock_vgtu_consultation_reservation_platform_srinidhigopalraj"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
